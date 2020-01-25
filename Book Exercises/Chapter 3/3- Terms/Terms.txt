@@ -1,0 +1,39 @@
+assignment: Assigning a value to a variable that was previously declared.
+
+cin: standard input stream.
+
+concatenation: Merging strings using + or +=.
+
+conversion: Taking a value of a certain type and storing it in a new 
+ data type.
+
+declaration: A statement that gives a name to an object.
+
+decrement: Decreasing value of a variable by a fixed amount.
+
+definition: A declaration that sets aside memory for a variable.
+
+increment: Increasing value of a variable by a fixed amount.
+
+initialization: A declaration that sets aside memory for a variable.
+
+name: The identifier we give to objects in order to be able to reach
+ them.
+
+narrowing: When we assign a bigger data type to a smaller data type and 
+ lose data.
+
+object: Place in memory that holds a value of a certain type.
+
+operation: The english name of the term. "Assignment", "Addition".
+
+operator: The programming language symbol of the term "=", "+".
+
+type: How computer interprets the value in memory.
+
+type safety: Making sure the variable has value in it before use and 
+ making sure we dont lose needed data during conversion.
+
+value: The data items we put into variables.
+
+variable: Named objects.

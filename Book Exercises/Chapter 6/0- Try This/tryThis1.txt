@@ -1,0 +1,7 @@
+We could first handle parantheses. One we get to a paranthesis that doesnt 
+ have a pranthesis in it, we can start looking for multiplications or 
+ divisions from left to right. When we find a token like this, we can do 
+ the calculation and then delete used tokens from vector and put a single 
+ vector with the result of the calculation. When we end up with a single 
+ value in a paranthesis, we can remove the paranthesis and start working 
+ on the outer paranthesis.

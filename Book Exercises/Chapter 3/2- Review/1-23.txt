@@ -1,0 +1,58 @@
+1- Prompt means getting the user to do something.
+
+2- The input operator >>.
+
+3- 
+
+   std::cout << "Enter an integer value> ";
+   std::cin >> number;
+
+4- \n is called the newline character. It puts the cursor
+ to the beginning of hte next line.
+
+5- A whitespace character such as space terminates input 
+ into a string.
+
+6- A non-digit.
+
+7- cout << "Hello, " << first_name << "!\n";
+
+8- An object is a place in computer memory that holds a 
+ certain type of value.
+
+9- A literal is a hard coded value.
+
+10- int, double, string, character, bool.
+
+11- A variable is a named object.
+
+12- char 1 byte, int 4 byte, double 8 byte.
+
+13- ???
+
+14- = assigns rvalue to lvalue. == checks whether they ar equal.
+
+15- A definition is a declaration that sets aside memory for a 
+ variable.
+
+16- Initialization declares the variable and assigns a value.
+ Assignment assigns a value to a previously declared varaible.
+
+17- String concatenation is merging two strings. You do it in 
+ C++ by using the + or the += operators.
+
+18- This_little_pig, MiniMineMine, This_1_is_fine, number are legal.
+ latest thing, the_$12_method, 2_For_1_special, _this_is_ok, correct? 
+ are illegal.
+
+19- Name, names, nameS, foo, f00, fI, f1, fl, fi.
+
+20- Names shouldnt be too short(non descriptive) or too long.
+
+21- Type safety is about making sure variables have values in them 
+ before they are used and not losing needed data during type 
+ conversion.
+
+22- Because we might lose needed data. In this case the fraction.
+
+23- It is safe if we dont lose data. It is unsafe if we lose data.

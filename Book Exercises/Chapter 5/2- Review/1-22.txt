@@ -1,0 +1,85 @@
+1- 
+
+   Syntax error: Making a grammar mistake when typing the code.
+
+   Semantic error: Things that make sense in math but not in 
+ programming. Such as b + c = a;
+
+   Type error: Undeclared function, wrong number of arguments, 
+ wrong type of arguments, etc.
+
+   Design error/Logic error: Working program that produces 
+ wrong output because of faulty logic.
+
+   Fatal error: Working program that crashes.
+
+2- Non runtime errors.
+
+3- Legal and illegal inputs behave as they should.
+
+4- Handling the error in function, in caller, using exceptions.
+
+5- I dont. But some people hate it because they see it as wasted
+ time.
+
+6- Grammar errors. Forgetting a semicolon. Brace missing, paranthesis 
+ missing.
+
+7- Using variable without declaration.               
+   int x = arena(7); // undeclared funtion
+   int x = area(7); // wrong number of arguments
+   int x = area(“seven”, 7); // 1st argument has a wrong type
+
+8- Errors found by the linker when it is trying to combine
+ object files into an executable program.
+ 
+Every function in a program must be declared with exactly the same type 
+ in every translation unit in which it is used. We use header files to ensure that.
+
+Every function must also be defined exactly once in a program.
+
+9- Program runs but produces wrong output.
+
+   Using “(a + b) / 2” instead of “a + b / 2”
+   Not using braces might cause problems like “Dangling-else Problem”.
+
+10- Poor specification, incomplete programs, unexpected arguments, 
+ unexpected input, unexpected state, logical errors.
+
+11- We need to have at least a vague understanding of the problem and 
+ the result we are trying to get.
+
+12- Caller handling an error is not preferable. The people who use 
+ this function wont know they are supposed to handle that error. 
+ Even if they know, they will have to do the same thing every time 
+ they use the function. Handling errors in called function and returning
+ an error value is more clear and concise.
+
+13- Exceptions are better because it seperates detection of the error and 
+ handlind of the error. Detection of error is at called function but handling 
+ of the error is at caller. Best of both worlds.
+
+14- if (cin)
+
+15- We put the risky code in a try block. If we detect a fault ourselves, we can 
+ throw the exception ourselves. If the exception happens, the program will throw 
+ the exception and the catch blocks with appropriate exception class in this 
+ function or in calling functions will catch it (hopefully) and handle it.
+
+16- A vector with size v has elements from 0 to v.size()-1. When you go over the 
+ range, you get a runtime error.
+
+17- Pre condition is requirements a function has before it starts executing.
+ Post condition is requirements from the return value.
+
+18- The check is big compared to function. It is complicated to check.
+
+19- The check is big compared to function. It is complicated to check.
+
+20- We keep compiling, linking and running the program with different outputs until 
+ we find an error and we fix that error.
+
+21- It makes the program much easier to understand. And tells us what the program is 
+ supposed to do.
+
+22- Testing is a systematic way to search for errors.

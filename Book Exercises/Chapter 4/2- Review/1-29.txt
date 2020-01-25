@@ -1,0 +1,83 @@
+1- Act of producing some outputs based on some inputs.
+
+2- Inputs are the values supplied to the program by 
+ a user or a file or some other source. Outputs are 
+ the results the program gives to us.
+
+3- Correctness, simplicity, efficiency.
+
+4- An expression computes a value. It is made up 
+ of operands, operators, function calls, etc.
+
+5- A statement is part of the program that specifies
+ an action and isn't a preprocessor directive.
+
+6- lvalue represents the variable, not the value it holds.
+ Operators such as = use it because it need to put the 
+ rvalue into the varaible on the left.
+
+7- Constant expression is an expression that always has 
+ the same value.
+
+8- A literal is a hard coded value in the program.
+
+9- A symbolic constant is a variable that doesnt change 
+ its value after it has been initialized. We use them
+ for readability, security, etc.
+
+10- A magic constant is a hard coded value. They are 
+ less readable than symbolic constants. An example 
+ is int n1 = 5;
+
+11- Basically all operators other than %, %=.
+
+12- %, %=
+
+13- =, +, +=, s >> x, s << x, ==, != , >, >=, <, <=
+
+14- Switch has better performance since it is not 
+ sequential. It is more clear than if else statements.
+
+15- Cant use strings. Case labels must be constant. 
+ Forgetting break can cause falling through. 
+
+16- Initializer defines a variable. This is done only one 
+ at the beginning.  Loop continuation condition checks if we 
+ should continue with the next iteration. Increment/decrement 
+ expression executes after the for body executes.
+
+17- for loop should be used for counter controlled repetition.
+ while loop should be used for sentinel controlled repetition.
+
+18- You can multiply it with 1 such as 1 * 'A'.
+
+19- It is a function called foo that takes an int value and 
+ returns a char value.
+
+20- When a seperate functionality that is especially used multiple 
+ times exists. This makes our program more readable and less buggy.
+
+21- Add, subtract, multiply, divide, remainder, increment, decrement, 
+ =+, -=, *=, /=, %=.
+
+22- Concatenate, add to end.
+
+23- 2.
+
+24- 
+
+   for (int i = 0; i < v.size(); i++)
+      std::cout << v[i] << ‘\n’;
+
+   for (int x : v)
+      std::cout << x << ‘\n’;
+
+25- Defines a vector of type char names alphabet, with a size of 26.
+
+26- Adds a new element to a vector.
+
+27- Returns the size of the vector.
+
+28- They are a useful data structure.
+
+29- std::sort(v.begin, v.end);

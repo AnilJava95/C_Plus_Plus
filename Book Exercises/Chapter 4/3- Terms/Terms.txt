@@ -1,0 +1,63 @@
+abstraction: not knowing internal implementations of services you use.
+
+computation: Act of producing some outputs based on some inputs.
+
+conditional statement: Allows to control program flow control.
+
+declaration: A statement that gives a name to an object.
+
+definition: A declaration that sets aside memory for a variable.
+
+divide and conquer: dividing the program into logical parts.
+
+else: Allows us the execute statements if the condition in if 
+ statement is false.
+
+expression: An expression computes a value. It is made up 
+ of operands, operators, function calls, etc.
+
+for-statement: Used generally for counter controlled repetition.
+
+range-for-statement: Securely iterates through elements of a list.
+
+function: A logical part of the program. Can be called with arguments
+ and can return a value.
+
+if-statement: Allows us to execute statement(s) if condition of if 
+ statement is true.
+
+increment: Shorthand version to add to a variable.
+
+input: Values that need to be supplied to the program for it to 
+ funtion.
+
+iteration: Repeating the same block.
+
+loop: Repeating the same block.
+
+lvalue: Refers to the variable not the value of the variable.
+
+member function: instance function
+
+output: Results provided by the program
+
+push_back(): Adds and element to a vector.
+
+repetition: Executing the same block multiple times.
+
+rvalue: Refers to the value of the variable.
+
+selection: Executing different code based on condition.
+
+size(): Gives us the size of the vector.
+
+sort(): Sorts the vector.
+
+statement: Part of the program that specifies an action and 
+ isn’t a preprocessor directive is called a statement.
+
+switch-statement: Executes code based on a value.
+
+vector: A data structure that holds same type of data.
+
+while-statement: Generally used for sentinel controlled repetition.

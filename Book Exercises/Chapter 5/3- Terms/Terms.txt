@@ -1,0 +1,42 @@
+argument error: Wrong number or type of arguments passed to function.
+
+assertion: A statement that states (asserts) an invariant.
+
+catch: Catch statements catch the thrown exceptions.
+
+compile time error: Errors that happen during compilation phase.
+
+container: Collections of data.
+
+debugging: Finding the sources of errors in code and fixing them.
+
+error: Errors happen when program doesnt behave like it should.
+
+exception: A mechanism to help deal with errors.
+
+invariant: A property that doesnt change.
+
+link time error: Errors found by the linker when it is trying to combine
+ object files into an executable program.
+
+logic error: Program runs but produces wrong output.
+
+post condition: Invariants about return value.
+
+pre condition: Invariants about function arguments.
+
+range error: Trying to access a vector element that doesnt exist.
+
+requirement: The rules function has for its input and output.
+
+run time error: Errors that happen during execution.
+
+syntax error: Grammar errors during typing the program.
+
+testing: Testing is a systematic way to search for errors.
+
+throw: When we or the program detects an error, we can throw an 
+ exception where it will be handled where it is caught.
+
+type error: Using undeclared variable or function. Wrong number or 
+ type of arguments.

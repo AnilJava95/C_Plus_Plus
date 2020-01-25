@@ -1,0 +1,40 @@
+//: Single line comment.
+
+<<: Output operator.
+
+C++: Programming language.
+
+comment: part of the program ignored by conpiler. These are notes for programmers.
+
+compiler: The tool that converts our human readable file to machine readable file.
+
+compile-time-error: Errors that happen after we start executing our program.
+
+cout: The output function.
+
+executable: A machine readable code with a main function.
+
+function: A piece of program that can take values, computer and return values.
+
+header: A library file.
+
+IDE: Integrated Development Environment. Includes tools that are needed in 
+ programming such as compiler, linker, editor, debugger.
+
+#include: Allows us to add other code portions to our code.
+
+library: A group of pre written code.
+
+linker: Links .obj files together to form the executable .exe file.
+
+main(): The function searched by compiler to start the program.
+
+object code: computer readable code.
+
+output: The data that comes out of a program.
+
+program: Code that includes a main method.
+
+source code: Human readable code.
+
+statement: Any code that specifies an action other than preprocessors.

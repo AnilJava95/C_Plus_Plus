@@ -1,0 +1,53 @@
+1- Namespace "std" has no member "Cout".
+
+2- Missing closing quote.
+
+3- Missing opening quote. missing semicolon.
+
+4- Identifier "success" is undefined.
+
+5- Conversion from int to string and string to int.
+
+6- Wrong operator.
+
+7- Identifier "cond" is undefined.
+
+8- c is initialized to false instead of true.
+
+9- Identifier "boo" is undefined. Should have used > instead of <.
+
+10- Should have used != operator.
+
+11- Should have used != operator. Typo when writing output operator.
+
+12- Should have used != operator. Typo when writing output operator.
+
+13- Remove ';' from end of for header. Change 0 in "0 < v.size()" with i.
+
+14- Remove ';' from end of for header.
+
+15- Change 6 with 8 in for header.
+
+16- Remove "then".
+
+17- Change "==" with "!=".
+
+18- Works.
+
+19- Doesnt compile because vector doesnt have a type. Its type doesnt matter
+ since the for loop uses an empty statement. The output statement after the 
+ for loop prints the string.
+
+20- Change "++j" with "++i".
+
+21- The character between x and 2 is not minus. Replace "x-2" with "x" to get rid
+ of division by zero. Replace "5" with "5.0" to get floating-point arithmetic.
+ Replace "d == 2 * x + 0.5" with "d == 2.5".
+
+22- Replace "string<char>" with "std::string".
+
+23- j is undefined. Replace ++j with ++i to get rid of infinite loop.
+
+24- The character between x and 2 is not minus.
+
+25- Replace "cin" with "cout".
