@@ -30,7 +30,6 @@ int main()
 
 	std::vector<double> values;
 
-
 	while (std::cin >> number >> unit)
 	{
 		// see if user has entered a valid unit

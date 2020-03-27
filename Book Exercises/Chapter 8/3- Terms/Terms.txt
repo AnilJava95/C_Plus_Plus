@@ -1,0 +1,95 @@
+activation record: Call stack has two parts. Return addresses and values of 
+ local variables. Activation record is the part where values of local variables 
+ are kept.
+
+argument: The values passed to a function.
+
+argument passing: There are different ways to pass arguments to a method. 
+ Pass by value, pass by const reference, pass by reference.
+
+call stack: The place in memory where we keep return addresses for called methods 
+ and values of local variables.
+
+class scope: Class scope is the area of text within a class.
+
+const: A const variable is initialized with a value that is not known at compile 
+ time but never changes after initialization.
+
+constexpr: A constexp symbolic constant must be given a value that is known at 
+ compile time.
+
+declaration: A declaration announces the properties (its type and name) of a 
+ variable or a function.
+
+definition: A definition also causes storage to be set aside (aside from 
+ announcing properties).
+
+extern: A variable that is outside every function. An external variable. Generally 
+ it is used to access a variable in the header file you are using.
+
+forward declaration: When defining functions, sometimes the first function uses 
+ one of the functions that is defined later. In order to fix that we can use 
+ a forward declaration (prototype of the later function).
+
+function: Collection of instructions.
+
+function definition: A definition also causes storage to be set aside (both variable 
+ values and function bodies are stored in memory as part of the program). ). 
+ A declaration that also fully specifies the entity declared (initialization for 
+ variables, function body for functions) is called a definition.
+
+global scope: Global scope is the area of text outside any other scope.
+
+header files: A header will typically be included in many source files. That means 
+ that a header should only contain declarations that can be duplicated in several 
+ files (such as function declarations, class definitions, and definitions of numeric 
+ constants).
+
+initializer: Same thing as constructor from Java. Initialized instance members.
+
+local scope: Local scope is between {...} braces of a block or in a function parameter 
+ list(parameters are in function scope too).
+
+
+namespace: In C++ namespaces are just about partitioning the available names. Java 
+ packages are about modules. The naming hierarchy is just one aspect of it.
+
+namespace scope: A mamespace scope is a named scope nested in the global scope or in 
+ another namespace.
+
+nested block: You can use braces {} to create a scope in a scope.
+
+parameter: The arguments passed to the function are copied to parameters of function.
+
+pass by const reference: We pass the reference of the structure to the function but 
+ we prevent the values from being edited.
+
+pass by reference: We pass the reference of the structure to the function.
+
+pass by value: We pass values themselves to the function.
+
+recursion: Self calling function.
+
+return: The keyword we use to return the value of the function.
+
+return value: The value a function returns.
+
+scope: Scope of a name is the part of the program within which the name can be used. 
+
+statement scope: e.g., in a for-statement.
+
+technicalities: Properties that are unique to the programming language.
+
+undeclared identifier: Identifiers that are not declared.
+
+using declaration: Instead of using the fully qualified name “std::string”, “std::cout”, 
+ we can say “by string i mean std::string” and “by cout i mean std::cout”, etc. using a 
+ using declaration.
+
+   using std::string;
+   using std::cout;
+
+using directive: We could also say “if you dont find a declaration for a name in this 
+ scope, look in std” using a using directive.
+
+   using namespace std;

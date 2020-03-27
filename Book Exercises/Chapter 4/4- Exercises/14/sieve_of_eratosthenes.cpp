@@ -1,9 +1,9 @@
 /*
  * Author's name and email: Michael
- * Program description: Finding prime numbers between 1-number using sieve of 
+ * Program description: Finding prime numbers between 1-number using sieve of
  *  Eratosthenes method.
  * Latest version: 1:52 PM, 11/22/2019.
- * Older versions: 
+ * Older versions:
  */
 
 #include <iostream>
@@ -22,17 +22,14 @@ int main()
 	// find primes
 	for (int counter = 2; counter < number; counter++)
 	{
-		for (int prime : primes)
+		if (primes[counter] == false)
+			continue;
+		else
 		{
-			if (primes[counter] == false)
-				continue;
-			else
+			for (int counter2 = counter + 1; counter2 < number; counter2++)
 			{
-				for (int counter2 = counter + 1; counter2 < number; counter2++)
-				{
-					if (counter2 % counter == 0)
-						primes[counter2] = false;
-				}
+				if (counter2 % counter == 0)
+					primes[counter2] = false;
 			}
 		}
 	}

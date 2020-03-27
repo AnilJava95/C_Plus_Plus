@@ -1,0 +1,92 @@
+1- A declaration announces the properties (its type and name) of a variable 
+ or a function ; a definition also causes storage to be set aside (both 
+ variable values and function bodies are stored in memory as part of the 
+ program). A declaration that also fully specifies the entity declared 
+ (initialization for variables, function body for functions) is called a 
+ definition.
+
+2- Function declarations dont have the body, definitions do. Declarations
+ dont have to have names for parameters, definitions do.
+
+3- Variable declaration has type and name. Definition has value too.
+
+4- 
+
+5- It is a declaration. It just has a type and name.
+
+6- If you dont initialize your variables, they may be used without being 
+ initialized. Which causes errors.
+
+7- Return value, name, types of each parameter.
+
+8- Makes the program easier to understand. Explicitly shows scopes.
+
+9- Importing other source code.
+
+10- An identifier is declared in a scope and is valid from the point 
+ of its declaration until the end of the scope in which it was declared.
+
+11- -The global scope: the area of text outside any other scope.
+    -A mamespace scope: a named scope nested in the global scope or 
+ in another namespace.
+    -A class scope: the are of text within a class.
+    -A local scope: between {...} braces of a block or in a function 
+ parameter list(parameters area in function scope too).
+    -A statement scope: e.g., in a for-statement.
+
+12- -A class scope: the area of text within a class.
+    -A local scope: between {...} braces of a block or in a function 
+ parameter list(parameters are in function scope too).
+
+13- Because we cant tell what is modifying it.
+
+14- Pass by value sends copies of the value(s). Pass be reference 
+ sends the address of the data(s) is.
+
+15- Pass by reference copies the address of the data. Data can be 
+ modified using this address. Pass by const reference copies the 
+ address of the data too but the values cant be modified.
+
+16- The swap function takes addresses of two data and swaps their 
+ values.
+
+17- For large values we prefer using pass by reference or pass by 
+ const reference.
+
+18- If you change the value of a variable in an expression, dont 
+ read or write it twice in that same expression.
+
+19- x && y means conditional and. x || y means conditional or.
+
+20- Allowed: classes witin function (not recommended), functions 
+ within classes, classes within classes.
+    Not allowed: functions within functions. 
+
+21, 22- When a function is called, the language implementation sets aside 
+ a data structure containing a copy of all its parameters and space 
+ for all local variables. Local variables are initialized only if we 
+ execute the statement in the function that initializes the variable. 
+ So calling a function with many local variables is not slower. But it 
+ does take more space.
+
+ In java we called it method call stack and stack frame. In C++ they 
+ are called stack of activation records (usually just called stack or 
+ call stack). Call stack is composed of activation records.
+
+23- In C++ namespaces are just about partitioning the available names. 
+ Java packages are about modules. The naming hierarchy is just one aspect 
+ of it.
+
+24- The namespaces cannot be created as objects. This concept is used as 
+ additional information to differentiate similar functions, classes, 
+ variables etc. Variables, functions with same name can be placed in 
+ different namespaces.
+
+25- Instead of using the fully qualified name “std::string”, “std::cout”, 
+ we can say “by string i mean std::string” and “by cout i mean std::cout”, 
+ etc. using a using declaration.
+
+26- Because you lose track of which names come from where, so that you 
+ start to get name clashes.
+
+27- The facilities of the C++ standard library are defined in namespace std.

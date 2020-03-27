@@ -1,7 +1,7 @@
 /*
  * Author's name and email: Michael
  * Program description: Converts numbers in string 
- *  form "one" to digit form "1".
+ *  form such as "one" to digit form such as "1".
  * Latest version: 10:50 AM, 11/16/2019.
  * Older versions: 
  */
